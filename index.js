@@ -1,7 +1,3 @@
-'use strict';
-var InstagramPrivateAPI = {};
-
-InstagramPrivateAPI = {};
-InstagramPrivateAPI.V1 = require('./client/v1');
-InstagramPrivateAPI.Helpers = require('./helpers');
-module.exports = InstagramPrivateAPI;
+// @ts-check
+module.exports.Helpers = require('./src/helpers');
+module.exports.Client = require('./src/client');
